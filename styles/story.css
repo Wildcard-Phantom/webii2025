@@ -1,0 +1,11 @@
+.navigation{
+  background-color: rgb(0, 0, 0);  
+}
+ul li{
+    list-style: none;
+    display: inline;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+}
