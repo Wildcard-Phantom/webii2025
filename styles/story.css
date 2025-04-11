@@ -6,11 +6,11 @@
 ul li{margin-left: 5px;
 margin-right: 10px}
 
-.navigation {
+.navigation { background-color: black;
   padding: 10px;
 }
 
-.navigation a { background-color: black;
+.navigation a { 
   color: white;
   text-decoration: none;
 }
