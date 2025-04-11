@@ -17,7 +17,7 @@ font-family: typography.$primary-font;
   }
   .navigation a{$dark-bg:rgb(0, 0, 0);
     $light-font-color: white;
-    text-decoration: none;font-family: typography.$primary-font;
+    text-decoration: none;font-family: "Marck Script", cursive;
 }
 .brand .links{
   display: inline;
@@ -60,6 +60,9 @@ ul li{
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 70px;}
+
+  .header{font-family: typography.$secoundary-font;
+  color: goldenrod;}
   
   .story{ font-size: 80px; margin-bottom: 
     10px; margin-top: 5px;
