@@ -1,8 +1,10 @@
 
-
+@use './partials/colors';
+@use './partials/spacing';
+@use './partials/typography';
 .links{
     float: right;
-    margin: 0px
+    margin: 0px;
     li{
         margin-left: 5px;
   margin-right: 10px;
@@ -11,15 +13,17 @@
 .navigation{
     $dark-bg:$dark-bg; 
     padding: 10px; 
-
+font-family: typography.$primary-font;
   }
   .navigation a{$dark-bg:rgb(0, 0, 0);
     $light-font-color: white;
-    text-decoration: none;
+    text-decoration: none;font-family: typography.$primary-font;
 }
 .brand .links{
   display: inline;
   list-style: none;
+font-family: typography.$primary-font
+
 }
 
 .links{float: right;
