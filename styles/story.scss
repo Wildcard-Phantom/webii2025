@@ -1,0 +1,82 @@
+
+
+.links{
+    float: right;
+    margin: 0px
+    li{
+        margin-left: 5px;
+  margin-right: 10px;
+    }
+}
+.navigation{
+    $dark-bg:$dark-bg; 
+    padding: 10px; 
+
+  }
+  .navigation a{
+    $light-font-color: white;
+    text-decoration: none;
+}
+.brand .links{
+  display: inline;
+  list-style: none;
+}
+
+.links{float: right;
+margin: 0px;}
+
+.brand{ 
+  margin-left: 10px;
+  text-decoration: underline !important;
+}
+
+ul li{
+  display: inline;
+  list-style: none;
+}
+
+.links li {
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+
+.main{ display: block;}
+
+  .right{float: right; 
+    margin-top: 70px;}
+  
+  .left {float: left;
+  margin-top: 85px;
+  margin-left: 215px;}
+  
+  .header{font-size: 50px;font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal; color: goldenrod; 
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 70px;}
+  
+  .story{ font-size: 80px; margin-bottom: 
+    10px; margin-top: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+  
+  .star{margin-left: 140px;}
+  
+  .word{margin-top: 0px; 
+  margin-bottom: 0px;
+  color: darkgrey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 25px;}
+  
+  .about{margin-top: 15px;
+  margin-left: 0px;
+  font-size: 15px;
+  color: goldenrod;
+  margin-left: 140px;
+  font-family:Arial, Helvetica, sans-serif;}
+
+  .footer{ $dark-bg:$dark-bg; 
+    $light-font-color: white;
+margin-top: 670px;
+padding: 50px;}
